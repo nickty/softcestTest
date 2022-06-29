@@ -3,6 +3,6 @@
 const app = require('./app');
 const req = require('supertest');
 
-it('Testing to see if Jest works', () => {
+it('Testing the url endpoints working', () => {
   req(app).get('/getBitcoinInfo').expect(200);
 });

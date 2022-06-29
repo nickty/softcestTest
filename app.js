@@ -1,9 +1,6 @@
 /** @format */
-
-const { json } = require('express');
 const express = require('express');
 const app = express();
-const port = 3000;
 const request = require('request');
 
 app.use(express.json());
