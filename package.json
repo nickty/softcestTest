@@ -1,0 +1,15 @@
+{
+  "name": "softcentcodetest",
+  "version": "1.0.0",
+  "description": "backend api test",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "Mizanur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
